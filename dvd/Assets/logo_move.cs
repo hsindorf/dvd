@@ -13,7 +13,6 @@ public class logo_move : MonoBehaviour
 	public float speed = 3.0f;
     public float verticalSpeed = 3.0f;
 
-
     void OnCollisionEnter2D(Collision2D col)
     {
     	Vector3 pos = transform.position;
@@ -21,7 +20,7 @@ public class logo_move : MonoBehaviour
         {
             speed = -speed;
         }
-        if(col.gameObject.name == "Top" || col.gameObject.name =="Bottom")
+        if(col.gameObject.name == "Top" || col.gameObject.name == "Bottom")
         {
             verticalSpeed = -verticalSpeed;
         }
