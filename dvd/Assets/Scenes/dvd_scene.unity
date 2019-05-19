@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 538874389}
   - component: {fileID: 538874388}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  verticalSpeed: 1
 --- !u!50 &1275851566
 Rigidbody2D:
   serializedVersion: 4
@@ -545,7 +546,7 @@ GameObject:
   - component: {fileID: 1281100157}
   - component: {fileID: 1281100156}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +653,7 @@ GameObject:
   - component: {fileID: 1409398763}
   - component: {fileID: 1409398762}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -759,7 +760,7 @@ GameObject:
   - component: {fileID: 1656029886}
   - component: {fileID: 1656029885}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
