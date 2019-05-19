@@ -10,7 +10,7 @@ public class logo_move : MonoBehaviour
         
     }
 
-	public float speed = 1.5f;    
+	public float speed = 3.0f;    
 
 
     void OnCollisionEnter2D(Collision2D col)
